@@ -1,0 +1,299 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+
+header {
+    background-color: rgb(47,139,224);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.logo {
+    cursor: pointer;
+}
+
+
+.navigation.header {
+    list-style: none;
+}
+
+
+.navigation.header li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.navigation.header li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation.header li a:hover {
+    color: palevioletred;
+}
+
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(255,255,255,255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+button:hover {
+    background-color: rgba(255,255,255,0.8);
+}
+
+/*----------------------------------------------------------*/
+
+
+nav {
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.m1 {
+    display: flex;
+    flex: 1;
+}
+
+
+.main-content {
+    display: flex;
+    flex: 1;
+    height: 800px;
+}
+
+
+.sidebarleft {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: rgba(255,255,255,255);
+    padding: 10px;
+}
+
+
+.navigation.sidebarleft {
+    display: flex;
+    justify-content: space-between;
+    background-color: palevioletred;
+    gap: 2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    
+    
+}
+
+
+.content-area {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.second-nav {
+    background-color: #FE0170;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 136%;
+}
+
+
+.nav.lint {
+    background-color: #fafafa;
+}
+
+
+.week-selectie ul li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+
+.second-nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+
+
+/*----------------------------------------------------------*/
+
+
+.container-grid1 {
+    margin: 40px 40px;
+    background-color: rgba(255,255,255,255);
+}
+
+
+.container-grid1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.container-grid1 ul:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    border: 1px dashed #aaa;
+}
+
+
+.container-grid1 ul li {
+    margin: 50px 60px;
+    position: relative;
+}
+
+
+.container-grid1 ul li > span {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60px;
+    width: 0px;
+    height: 100%;
+    border: 1px solid #aaa;
+}
+
+
+.container-grid1 ul li > span:before, .container-grid1 ul li > span:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid #aaa;
+    position: absolute;
+    border-radius: 50%;
+    left: -7px;
+    background: #fff;
+}
+
+
+.container-grid1 ul li > span:before {
+    top: -10px;
+}
+
+.container-grid1 ul li > span:before {
+    top: 100%;
+}
+    
+
+.container-grid1 ul li .time span {
+    position: absolute;
+    font-size: 12px;
+    left: -105px;
+    width: 30px;
+    text-align: right;
+}
+
+
+.container-grid1 ul li .time span:first-child {
+    top: -12px;
+}
+
+
+.container-grid1 ul li .time span:last-child {
+    top: 100%;
+}
+
+
+.li1, .li2, .li3 {
+    border: 2px groove;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #FE0170;
+}
+
+
+/*----------------------------------------------------------*/
+
+
+.section {
+    grid-column: 1;
+    grid-row: 1;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-bottom: 3cm;
+    margin-top: 2px;
+}
+
+
+.sidebar-right {
+    width: 20%;
+    height: 100%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-top: 140px;
+}
+
+
+.section1 {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section2{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.section3 {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    background-color: rgb(47,139,224);
+    padding: 10px;
+    text-align: center;
+}
+
+.footer1 {
+    margin-left: 350px;
+    margin-top: 600px;
+}
+
+
+/*----------------------------------------------------------*/
